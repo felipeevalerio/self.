@@ -1,3 +1,11 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+:root {
+  --black-500: #111111; 
+}
+
+body {
+  color: var(--black-500) 
+}
